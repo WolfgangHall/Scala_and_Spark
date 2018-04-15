@@ -47,3 +47,20 @@ val assembler = (new VectorAssembler().setInputCols(
 
 //
 val output = assembler.transform(df).select($"label", $"features")
+
+// will return a two column df with labels and a vector of features
+output.show()
+
+
+var lr = new LinearRegression()
+
+val lrModel = lr.fit(output)
+
+val trainingSummary = lrModel.summary
+
+trainingSummary.residuals.show()
+
+trainingSummary.predictions.show()
+
+trainingSummary.r2
+trainingSummary.meanSquaredError
