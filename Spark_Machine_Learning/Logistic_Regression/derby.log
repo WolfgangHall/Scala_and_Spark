@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Apr 15 15:34:30 EDT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0162-cacd-379c-000003f86200 
+on database directory /home/wolfgang/Desktop/Scala_and_Spark/Spark_Machine_Learning/Logistic_Regression/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@4b762988 
+Loaded from file:/usr/local/spark/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12
+user.dir=/home/wolfgang/Desktop/Scala_and_Spark/Spark_Machine_Learning/Logistic_Regression
+os.name=Linux
+os.arch=amd64
+os.version=4.13.0-38-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
